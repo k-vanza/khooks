@@ -19,3 +19,28 @@ now on a click event the setcount value is updated to count + 1
 
 -----
 useEffect Hook:
+this hook is used to create a side-effect
+
+ex: aakhi raat tv joi to mathu dukhe 
+meaning that due to occurence of an event a side effect is created
+
+ex: when we render the project --> an api is fetched
+events:
+1.render the project
+2.side effect: api is fetched
+
+declaration: use the useEffect hook
+
+it has three things:
+1.first -> side-effect function
+2.second -> clean-up function
+3.third -> comma seperated list of dependencies
+
+second: in this if we have added an event listner then that component is unmounted meaning the event listner is unmonted or removed
+third: list of dependencies using which we can call the useEffect
+
+-----
+Variations:
+simple useEffect hook: 
+meaning it does not have any kind of first, second and third
+it basically runs on every render 
