@@ -1,0 +1,21 @@
+hooks are used to access the functionalities and features of react
+ex:
+If a train is moving at a certain speed and i want to go on the same speed so i will have to throw a hook over a train to achieve the speed
+meaning that the functionalities of train are now available to the guy also
+
+-----
+useState Hook:
+
+the useState hook is used to change the state of a component
+
+useState hook has two functionalities:
+1.state variable
+2.state function(used to update the state of the function)
+
+declaration:
+const[var_name, function] = useState(initial value)
+
+now on a click event the setcount value is updated to count + 1
+
+-----
+useEffect Hook:
