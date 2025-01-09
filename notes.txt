@@ -44,3 +44,7 @@ Variations:
 simple useEffect hook: 
 meaning it does not have any kind of first, second and third
 it basically runs on every render 
+
+-----
+useContext hook is used to eliminate prop drilling issue 
+

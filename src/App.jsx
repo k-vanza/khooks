@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { createContext, useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -54,10 +54,6 @@ function App() {
   //     alert("count ni juni value ui ma thi hati gai")
   //   }
   // }, [count])
-  
-  
-  
-
 
   // function handleCLick() {
   //   setCount(count+1);
@@ -67,6 +63,15 @@ function App() {
   //   setTotal(total+1);
   // }
 
+  //code for useContext hook
+
+  //step1: create context
+  //const userContext = createContext();
+  //step2: wrap all the child inside a provider
+  //step3: pass value
+  //step4: consumer ke andar jaake consume karlo
+
+  //const [user, setUser] = useState({name:"kanishk"})
 
   return (
     <>
@@ -89,9 +94,16 @@ function App() {
         {/* <ResizeComponent /> */}
         {/* <MultiEffectComponent /> */}
 
+        {/* the below code is for */}
+
+          {/* <userContext.Provider value ={user}>
+            <ChildA />
+          </userContext.Provider> */}
+          {/* the above line means what content is to be provided*/}
       </div>
     </>
   )
 }
 
 export default App
+//export {userContext}
